@@ -7,6 +7,8 @@ fi
 HOOKS_DIR="$DOT_GIT_DIR"/hooks
 . "$HOOKS_DIR"/gitflow-functions
 
+source "$HOOKS_DIR/config.sh"
+
 HOOK_ERROR=0
 
 echo ${WHITE}
